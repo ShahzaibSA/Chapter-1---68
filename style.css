@@ -1,0 +1,93 @@
+@font-face{
+    src: url(./font/JosefinSans-Regular.ttf);
+    font-family: 'JosefinSans-Regular.ttf';
+}
+
+
+body{
+    font-family: 'JosefinSans-Regular.ttf';
+    background: black;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 5vh;
+    margin-left: 3vh;
+    word-spacing: 3px;
+    line-height: 3vh;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 8px 4px #ffffffec;
+}
+
+table{
+    box-shadow: 1px 1px 8px 4px #ffffffec;
+}
+td{
+    border: 1px solid rgb(251, 170, 122);
+    padding: 10px 10px;
+}
+button{
+    font-size: 16px;
+}
+
+#thisone{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+}
+
+.btn{
+    padding: 9px;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+
+.img{
+    border: 1px solid white;
+    width: 26%;
+}
+div p{
+    text-align: justify;
+    border: 1px solid white;
+    width: 85%;
+    padding: 10px 10px;
+    margin: 15px 5px 15px 13px;
+}
+
+
+.container{
+    overflow: hidden;
+}
+.tab{
+    float: left;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px 4px #ffffffec;
+    padding: 15px 15px;
+
+}
+.tab-2{
+    margin-left: 50px;
+}
+.tab-2 input{
+    display: block;margin-bottom: 10px;
+}
+div button{
+    padding: 5px 5px;
+    background-color: rgba(255, 213, 24, 0.918);
+
+}
+tr{
+    transition:all .25s ease-in-out;
+}
+tr:hover{
+    background-color:#ff9898;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
